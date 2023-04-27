@@ -73,22 +73,22 @@ if(e.shiftKey == true && keyPressed == '77')
 if(keyPressed == '38')
 {
     up();
-    console.log("Up")
+    console.log("up")
 }
 if(keyPressed == '40')
 {
     down();
-    console.log("Down")
+    console.log("down")
 }
 if(keyPressed == '37')
 {
     left();
-    console.log("Left")
+    console.log("left")
 }
 if(keyPressed == '39')
 {
     right();
-    console.log("Right")
+    console.log("right")
 }
 if(keyPressed == '87')
 {
@@ -143,7 +143,7 @@ function up()
     {
         player_y= player_y - block_image_height;
         console.log("block image height=" + block_image_height);
-        console.log("When Up arrow key is pressed, X =" + player_x + ", y =" +player_y);
+        console.log("When up arrow key is pressed, X =" + player_x + ", y =" +player_y);
         canvas.remove(player_object);
         player_update();
     }
@@ -155,7 +155,7 @@ function down()
     {
         player_y= player_y + block_image_height;
         console.log("block image height=" + block_image_height);
-        console.log("When Down arrow key is pressed, X =" + player_x + ", y =" +player_y);
+        console.log("When down arrow key is pressed, X =" + player_x + ", y =" +player_y);
         canvas.remove(player_object);
         player_update();
     }
@@ -167,7 +167,7 @@ function left()
     {
         player_x= player_x + block_image_width;
         console.log("block image height=" + block_image_width);
-        console.log("When Left arrow key is pressed, X =" + player_x + ", y =" +player_y);
+        console.log("When left arrow key is pressed, X =" + player_x + ", y =" +player_y);
         canvas.remove(player_object);
         player_update();
     }
@@ -179,7 +179,7 @@ function right()
     {
         player_x= player_x + block_image_width;
         console.log("block image width=" + block_image_width);
-        console.log("When Right arrow key is pressed, X =" + player_x + ", y =" +player_y);
+        console.log("When right arrow key is pressed, X =" + player_x + ", y =" +player_y);
         canvas.remove(player_object);
         player_update();
     }
