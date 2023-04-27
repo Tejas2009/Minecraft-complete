@@ -72,23 +72,23 @@ if(e.shiftKey == true && keyPressed == '77')
 }
 if(keyPressed == '38')
 {
-    Up();
-    console.log("up")
+    up();
+    console.log("Up")
 }
 if(keyPressed == '40')
 {
-    Down();
-    console.log("down")
+    down();
+    console.log("Down")
 }
 if(keyPressed == '37')
 {
-    Left();
-    console.log("left")
+    left();
+    console.log("Left")
 }
 if(keyPressed == '39')
 {
-    Right();
-    console.log("right")
+    right();
+    console.log("Right")
 }
 if(keyPressed == '87')
 {
